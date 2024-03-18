@@ -1,9 +1,13 @@
-#include<iostream>
-#include<iomanip>
-using namespace std;
-int main(){
-	char str[20];
-	cin>>str;
-	cout<<"Name is "<<ws<<str;
-	
-}
+#include <iostream>  
+#include <istream>  
+#include <sstream>  
+using namespace std;  
+  
+int main()  
+{  
+    istringstream s("       Hello World!");  
+    string line;  
+    getline(s >> ws, line);  
+    cout<< line << "\"\n";  
+    return 0;  
+}  

@@ -13,7 +13,8 @@ int main(){
 	
 	cin>>a>>b;
 	update(pa,pb);
+//	update(&a,&b);
 	cout<<*pa<<ends<<*pb<<endl;
 	
-//	cout<<&a<<&b;
+//	cout<<a<<b;
 }
